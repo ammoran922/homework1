@@ -1,4 +1,4 @@
-import hw_1 as bim
+import bisection_method as bim
 import numpy as np
 from pathlib import Path
 import pytest
