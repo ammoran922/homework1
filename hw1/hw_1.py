@@ -3,6 +3,8 @@ import numpy as np
 from pathlib import Path
 from typing import Callable, Union
 
+# bisection method warmup
+
 def is_a_less_b(a: float, b: float):
     if a >= b:
         raise ValueError(f"Invalid input: {a} is greater than {b}.")

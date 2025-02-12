@@ -4,6 +4,8 @@ from pathlib import Path
 import pytest
 import re
 
+# bisection method warmup
+
 def test_calculate_midpoint():
     a = 20.0
     b = 40.0
